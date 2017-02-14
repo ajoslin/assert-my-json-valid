@@ -16,7 +16,7 @@ module.exports = function assertMyJsonValid (value, schema) {
 
   if (validate.errors && validate.errors.length) {
     var error = mapError(validate.errors[0], schema)
-    throw ValidationError(error)
+    throw ValidationError([error])
   }
 }
 
