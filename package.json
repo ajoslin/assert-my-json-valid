@@ -1,7 +1,7 @@
 {
   "name": "assert-my-json-valid",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use is-my-json-valid to validate, throw if error",
   "license": "MIT",
   "repository": "ajoslin/assert-my-json-valid",
