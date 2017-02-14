@@ -21,7 +21,7 @@ var schema = {
 try {
   assertMyJsonValid(schema, 1)
 } catch (e) {
-  console.log(e) // => '[ValidationError]: string data is the wrong type (value: 1)'
+  console.log(e) // => 'string data is the wrong type (value: 1)'
 }
 
 assertMyJsonValid(schema, 'foo') // no error
