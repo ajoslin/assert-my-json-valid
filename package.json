@@ -1,0 +1,35 @@
+{
+  "name": "assert-my-json-valid",
+  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Use is-my-json-valid to validate, throw if error",
+  "license": "MIT",
+  "repository": "ajoslin/assert-my-json-valid",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "assert",
+    "is-my-json-valid",
+    "jsonschema"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "assert": "^1.4.1",
+    "error": "^7.0.2",
+    "is-my-json-valid": "^2.15.0",
+    "weakmap-shim": "^1.1.1"
+  }
+}
